@@ -1,0 +1,14 @@
+{
+  "display_name": "Python, approval-unittest",
+  "image_name": "cyberdojofoundation/python_approval_unittest",
+  "visible_filenames":
+  [
+    "hiker.py",
+    "test_hiker.py",
+    "cyber-dojo.sh",
+    "test_hiker.test_simple.approved.txt"
+  ],
+  "filename_extension": [ ".py", ".approved.txt", ".received.txt" ],
+  "max_seconds": 10,
+  "tab_size": 4
+}
