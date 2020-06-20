@@ -1,4 +1,4 @@
-import hiker
+from hiker import global_answer, Hiker
 import unittest
 
 from approvaltests.approvals import verify
@@ -10,10 +10,12 @@ class HikerTest(unittest.TestCase):
     def setUp(self):
         self.reporter = GenericDiffReporterFactory().get_first_working()
 
-    def test_hhgttg(self):
-        '''a simple example to start you off'''
-        douglas = hiker.Hiker()
-        result = str(douglas.answer())
+    def test_global(self):
+        result = str(global_answer())
+        verify(result, self.reporter)
+
+    def test_instance(self):
+        result = str(Hiker().instance_answer())
         verify(result, self.reporter)
 
 
