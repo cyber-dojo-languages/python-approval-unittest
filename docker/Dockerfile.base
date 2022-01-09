@@ -1,4 +1,4 @@
-FROM cyberdojofoundation/python_unittest:51c7d93
+FROM cyberdojofoundation/python_unittest:c4d480d
 LABEL maintainer=jon@jaggersoft.com
 
 RUN pip3 install --upgrade approvaltests
