@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/cyber-dojo-languages/python-approval-unittest.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/python-approval-unittest)
+[![Github Action (main)](https://github.com/cyber-dojo-languages/python-approval-unittest/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-languages/python-approval-unittest/actions)
 
-## display_name="Python, approval-unittest"
-## image_name="cyberdojofoundation/python_approval_unittest"
+## display_name="Python 3.13, approval-unittest 14.0"
+## image_name="ghcr.io/cyber-dojo-languages/python_approval_unittest"
 
 ![cyber-dojo.org home page](https://github.com/cyber-dojo/cyber-dojo/blob/master/shared/home_page_snapshot.png)
