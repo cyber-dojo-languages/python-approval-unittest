@@ -1,4 +1,4 @@
-FROM ghcr.io/cyber-dojo-languages/python_unittest:de0a747
+FROM ghcr.io/cyber-dojo-languages/python_unittest:c5e44a0
 LABEL maintainer=jon@jaggersoft.com
 
 RUN pip3 install --upgrade approvaltests
