@@ -2,5 +2,3 @@ FROM ghcr.io/cyber-dojo-languages/python_unittest:c5e44a0
 LABEL maintainer=jon@jaggersoft.com
 
 RUN pip3 install --upgrade approvaltests
-
-COPY red_amber_green.rb /usr/local/bin
