@@ -1,4 +1,4 @@
-FROM ghcr.io/cyber-dojo-languages/python_unittest:3fe4d15
+FROM ghcr.io/cyber-dojo-languages/python_unittest:b888eb8
 LABEL maintainer=jon@jaggersoft.com
 
 RUN pip3 install --upgrade approvaltests
@@ -9,3 +9,6 @@ RUN pip3 install --upgrade approvaltests
 # sandbox, which is empty at the start of every run.
 COPY warm_mypy_cache.sh .
 RUN bash ./warm_mypy_cache.sh && rm ./warm_mypy_cache.sh
+
+COPY install.sh .
+RUN ./install.sh && rm ./install.sh
